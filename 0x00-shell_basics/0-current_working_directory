@@ -1,4 +1,2 @@
 #!/bin/bash
-show_path=$(pwd)
-echo "$show_path"
-
+show_path=$(pwd) echo "$show_path" 
