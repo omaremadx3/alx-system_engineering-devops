@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -apvx1
+ls -apvxm
