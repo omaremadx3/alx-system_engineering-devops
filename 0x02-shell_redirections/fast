@@ -3,8 +3,8 @@
 # Prompt for the file name
 read -p "Enter the name of the file: " filename
 
-# Create the file with the shebang line
-echo "#!/bin/bash" > "$filename"
+# Create the file with the shebang line followed by a newline
+echo -e "#!/bin/bash\n" > "$filename"
 
-echo "File '$filename' created with the shebang line."
+echo "File '$filename' created with the shebang line and a new line."
 
